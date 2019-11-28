@@ -1,4 +1,4 @@
-sudo locale-gen en_US.UTF-8
+sudo locale-gen en_US en_US.UTF-8
 sudo apt install dialog -y
 sudo apt install nano -y
 cd /etc/apt/sources.list.d
