@@ -12,7 +12,8 @@ View in my Youtube channel :
 
 ATTENTION
 --
-_You must have root permission and LINUX operating system Python 3
+You must need to be installed Linux operating system and install Python 3 programming language 
+Otherwise It Won't Working
 
 Installation
 --
