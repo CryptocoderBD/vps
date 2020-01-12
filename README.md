@@ -20,14 +20,14 @@ Installation
 ```
 $ wget https://raw.githubusercontent.com/D3vilhun73r404/vps/master/build.py
 $ chmod 777 build.py 
-$ apt install python3
+$ apt install python3 -y
 $ python3 build.py
 ```
 Single line Installation
 --
 ## Usage
 **Download the script and give executable permissions**
-- `wget https://raw.githubusercontent.com/D3vilhun73r404/vps/master/build.py && chmod 777 build.py && apt install python3 && python3 build.py`
+- `wget https://raw.githubusercontent.com/D3vilhun73r404/vps/master/build.py && chmod 777 build.py && apt install python3 -y && python3 build.py`
 
 ```
 
