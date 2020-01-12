@@ -19,7 +19,7 @@ $$ | \$$\ $$ |  $$ |$$$$$$$$\ $$$$$$\          $$ |    $$$$$$  | $$$$$$  |$$$$$$
 
 kali = input("YOU WANT TO UPDATE SYSTEM : YES / NO ")
 
-if "Y" or "YES" or "yes" or "y" or "Yes" or "YEs" === kali:
+if "Y" or "YES" or "yes" or "y" or "Yes" or "YEs" == kali:
 	os.system("locale-gen en_US.UTF-8")
 	os.system("apt install dialog -y")
 	os.system("apt install nano -y")
@@ -36,7 +36,7 @@ if "Y" or "YES" or "yes" or "y" or "Yes" or "YEs" === kali:
 	print("INSTALLING TOOL ........")
 	os.system("apt install wpscan sqlmap python python-pip python3 python3-pip php php-curl curl nodejs terminator firefox figlet -y")
 	
-elif "no" or "NO" or "No" or "nO" === kali:
+elif "no" or "NO" or "No" or "nO" == kali:
 	print("OK BOSS I AM QUITING................... ")
 else:
 	os.system("exit")
