@@ -21,10 +21,10 @@ $ python3 build.py
 ```
 Single line Installation
 --
-</br>
 '''
+
 git clone https://raw.githubusercontent.com/D3vilhun73r404/vps/master/build.py && chmod 777 build.py && apt install python3 && python3 build.py 
-'''
+
 ```
 THIS PROGRAM CREATED BY ALI KHAN BANGLADESHI HACKER 
 FOR DEVELOPER YOU CAN RE CODE IT I HAVE NO PROBLEM 
