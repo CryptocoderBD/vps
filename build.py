@@ -13,7 +13,7 @@ $$ | \$$\ $$ |  $$ |$$$$$$$$\ $$$$$$\          $$ |    $$$$$$  | $$$$$$  |$$$$$$
 \__|  \__|\__|  \__|\________|\______|         \__|    \______/  \______/ \________|
                                                                                     
             CODED BY ALI KHAN BANGLADESHI HACKER (CryptocoderBD) 
-			  FOR FREE WORDPRESS TOOL PLEASE CONTACT WITH ME
+	      FOR FREE WORDPRESS TOOL PLEASE CONTACT WITH ME
                                                                                     
 ''')
 
@@ -36,5 +36,7 @@ if "Y" or "YES" or "yes" or "y" or "Yes" or "YEs" in kali:
 	print("INSTALLING TOOL ........")
 	os.system("apt install wpscan sqlmap python python-pip python3 python3-pip php php-curl curl nodejs terminator firefox figlet -y")
 	
+elif "no" or "NO" or "No" or "nO" in kali:
+	print("OK BOSS I AM QUITING................... ")
 else:
 	os.system("exit")
