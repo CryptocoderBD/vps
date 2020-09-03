@@ -32,7 +32,7 @@ os.system("wget https://archive.kali.org/archive-key.asc -O /etc/apt/trusted.gpg
 print("KALI LINUX UPDATEING......")
 os.system("sudo apt update --fix-missing")
 print("INSTALLING TOOL ........")
-os.system("apt install wpscan sqlmap python python-pip python3 python3-pip php php-curl curl nodejs goleng nmap nikto sublist3r figlet -y")
+os.system("apt install wpscan sqlmap python python-pip python3 python3-pip php php-curl curl nodejs golang nmap nikto sublist3r figlet -y")
 print("Cloning Some Tools.............")
 time.sleep(2)
 os.system('git clone https://github.com/projectdiscovery/nuclei.git')
